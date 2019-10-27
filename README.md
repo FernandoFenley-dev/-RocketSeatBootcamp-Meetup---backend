@@ -23,3 +23,14 @@ yarn sequelize db:migrate
 
 2-Executar as seeds para popular a base de dados
 yarn sequelize db:seed:all
+
+## Executar a aplicação
+
+Para executar a aplicação:
+
+1- Primeiro, executar o servidor:
+yarn dev
+
+2- Segundo, executar a fila de tarefas:
+yarn queue
+
